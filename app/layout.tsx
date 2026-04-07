@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "material-symbols";
+import Logo from "@/public/logo.png";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +29,66 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <header className="bg-[#131313] flex justify-between items-center px-6 h-20 w-full sticky top-0 z-[60]">
+          <button
+            aria-label="Open menu"
+            className="material-symbols-outlined text-[#E5E2E1] hover:bg-[#D32F2F]/10 transition-colors p-2 active:scale-95 duration-150 cursor-pointer"
+          >
+            menu
+          </button>
+
+          {/* <h1 className="font-['Manrope'] uppercase tracking-widest font-black text-2xl text-[#D32F2F]">
+          SHOKUNIN
+        </h1> */}
+          <img src={Logo.src} className="w-48" />
+
+          <button
+            aria-label="Search"
+            className="material-symbols-outlined text-[#E5E2E1] hover:bg-[#D32F2F]/10 transition-colors p-2 active:scale-95 duration-150 cursor-pointer"
+          >
+            search
+          </button>
+        </header>
+        {children}
+        <nav
+          aria-label="Main navigation"
+          className="fixed bottom-0 w-full z-50 flex justify-around items-center px-4 h-16 bg-[#131313]/90 backdrop-blur-xl"
+        >
+          <NavLink href="#" icon="home" label="Home" />
+          <NavLink href="#" icon="restaurant_menu" label="Menu" active />
+          <NavLink href="#" icon="person" label="Profile" />
+        </nav>
+      </body>
     </html>
+  );
+}
+
+function NavLink({
+  href,
+  icon,
+  label,
+  active,
+}: {
+  href: string;
+  icon: string;
+  label: string;
+  active?: boolean;
+}) {
+  return (
+    <a
+      href={href}
+      className={[
+        "flex flex-col items-center justify-center pt-2 transition-all active:opacity-80",
+        active
+          ? "text-[#D32F2F] border-t-2 border-[#D32F2F]"
+          : "text-[#E5E2E1]/60 hover:text-[#D32F2F]",
+      ].join(" ")}
+    >
+      <span className="material-symbols-outlined">{icon}</span>
+      <span className="font-['Work_Sans'] text-[10px] uppercase tracking-wider font-semibold">
+        {label}
+      </span>
+    </a>
   );
 }
