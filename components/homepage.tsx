@@ -12,10 +12,10 @@ export default function HomePage() {
         </div>
         <div className="relative z-10 text-center px-6 max-w-4xl">
           <h2 className="font-headline text-primary-container text-sm tracking-[0.4em] uppercase mb-6">
-            Traditional technique. Modern spirit.
+            YOUR HEADER HERE
           </h2>
           <h1 className="font-headline text-5xl md:text-8xl font-extrabold tracking-tighter text-on-surface mb-8">
-            THE SOUL OF THE SHOKUNIN
+            YOUR MAIN TITLE GOES HERE
           </h1>
           <div className="flex justify-center">
             <button className="bg-primary-container text-on-primary-container px-10 py-4 font-headline font-bold text-sm tracking-widest hover:bg-primary-fixed-dim transition-all duration-300 active:scale-95">
@@ -45,17 +45,16 @@ export default function HomePage() {
               Chef's Choice
             </span>
             <h2 className="font-headline text-4xl md:text-6xl font-bold tracking-tight">
-              SHOKUNIN BLACK
+              ITEM TITLE HERE
             </h2>
             <p className="font-body text-on-surface-variant text-lg leading-relaxed">
-              Our definitive masterpiece. A 48-hour tonkotsu base infused with
-              charred garlic oil and secret black sesame tare. Served with
-              24-hour slow-cooked chashu that melts upon contact.
+              Your description goes here. Replace this with your own text while
+              keeping the length consistent for layout purposes.
             </p>
             <div className="flex items-center gap-4 text-primary-container">
               <span className="h-px w-12 bg-primary-container"></span>
               <span className="font-headline text-xs tracking-[0.3em] font-bold">
-                UMAMI DEFINED
+                HIGHLIGHT
               </span>
             </div>
           </div>
@@ -65,26 +64,23 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-start">
           <div className="w-full md:w-1/2">
             <h2 className="font-headline text-7xl md:text-9xl font-black text-surface-container-highest uppercase leading-none select-none">
-              THE CRAFT
+              SECTION TITLE
             </h2>
             <div className="-mt-8 md:-mt-16 pl-4 md:pl-12 border-l-2 border-primary-container">
               <p className="font-body text-xl md:text-2xl text-on-surface max-w-md leading-relaxed italic">
-                "Precision is not just a method, it is a form of respect to the
-                ingredients and the guest."
+                "Your quote or featured text goes here. Keep it similar in
+                length to maintain spacing."
               </p>
             </div>
           </div>
           <div className="w-full md:w-1/2 space-y-6 pt-12">
             <p className="font-body text-on-surface-variant leading-relaxed">
-              In the heart of Milan, we honor the ancient tradition of the
-              Shokunin—the artisan who masters their craft through lifelong
-              dedication. Every grain of flour, every cut of ginger, and every
-              degree of temperature is a conscious choice.
+              Your first paragraph description goes here. Replace this text with
+              your own content while preserving character count roughly.
             </p>
             <p className="font-body text-on-surface-variant leading-relaxed">
-              We don't just serve ramen; we curate a sensory journey that
-              bridges the gap between the historic alleys of Tokyo and the
-              contemporary pulse of Italian design.
+              Your second paragraph description goes here. Use placeholder
+              content to simulate real copy and maintain layout structure.
             </p>
           </div>
         </div>

@@ -13,13 +13,12 @@ export default function About() {
         <div className="relative z-10 px-6 md:px-12 max-w-3xl">
           <div className="inline-block bg-primary-container h-1 w-24 mb-6"></div>
           <h2 className="font-headline font-extrabold text-5xl md:text-7xl lg:text-8xl tracking-tight leading-none mb-6">
-            THE ART OF <br />
-            <span className="text-primary-container">PRECISION</span>
+            YOUR <br />
+            <span className="text-primary-container">HEADER</span>
           </h2>
           <p className="font-body text-xl md:text-2xl text-on-surface-variant font-light leading-relaxed max-w-xl">
-            In the heart of Milan, we follow the path of the Shokunin—the
-            artisan who masters their craft through lifelong dedication and
-            relentless repetition.
+            Your description goes here. Replace this text with a brief overview
+            or any generic placeholder content that fits your layout.
           </p>
         </div>
       </section>
@@ -27,16 +26,15 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-0">
           <div className="md:col-span-7 bg-surface-container-low p-12 flex flex-col justify-center min-h-100">
             <span className="font-headline font-bold text-red-700 tracking-[0.5em] uppercase mb-4 text-xs">
-              Our Vision
+              YOUR SECTION
             </span>
             <h3 className="font-headline font-bold text-3xl mb-8 tracking-wide">
-              ELEVATING THE ESSENTIAL
+              YOUR SUBTITLE HERE
             </h3>
             <p className="font-body text-lg text-on-surface leading-loose opacity-80">
-              At Shokunin, ramen is not just a meal; it is a meticulous
-              architecture of flavor. Our broth is simmered for 18 hours, our
-              noodles are hand-crafted daily, and our spirit is rooted in
-              'Kodawari'—the uncompromising pursuit of perfection.
+              Your paragraph text goes here. Keep it concise but descriptive.
+              This placeholder mimics the length and structure of your original
+              content.
             </p>
           </div>
           <div className="md:col-span-5 relative min-h-100">
@@ -56,13 +54,11 @@ export default function About() {
           </div>
           <div className="md:col-span-8 bg-surface-container-high p-12 border-l border-primary-container/20">
             <h3 className="font-headline font-bold text-3xl mb-6 tracking-wide">
-              CRAFTSMANSHIP PHILOSOPHY
+              YOUR PHILOSOPHY
             </h3>
             <p className="font-body text-on-surface-variant leading-relaxed mb-8">
-              The shokunin has a social obligation to work his best for the
-              welfare of the people. This responsibility is spiritual, material,
-              and cultural. Every bowl served at Shokunin carries the weight of
-              this tradition.
+              Placeholder text describing your philosophy, mission, or values.
+              Use enough content to fill the space meaningfully.
             </p>
             <div className="grid grid-cols-2 gap-8">
               <div>
@@ -70,7 +66,7 @@ export default function About() {
                   01.
                 </div>
                 <div className="font-headline font-bold text-sm tracking-widest uppercase">
-                  Purity
+                  VALUE ONE
                 </div>
               </div>
               <div>
@@ -78,7 +74,7 @@ export default function About() {
                   02.
                 </div>
                 <div className="font-headline font-bold text-sm tracking-widest uppercase">
-                  Discipline
+                  VALUE TWO
                 </div>
               </div>
             </div>
@@ -103,10 +99,10 @@ export default function About() {
                     </span>
                     <div>
                       <p className="font-headline font-bold tracking-widest uppercase text-xs text-neutral-500 mb-2">
-                        Shokunin Brera
+                        LOCATION ONE
                       </p>
                       <p className="text-xl font-light mb-4">
-                        Via Brera, 12, 20121 Milan
+                        Your address goes here
                       </p>
                       <div className="flex flex-wrap gap-x-8 gap-y-2 text-sm text-on-surface-variant opacity-80">
                         <span className="flex items-center gap-2">
@@ -141,10 +137,10 @@ export default function About() {
                     </span>
                     <div>
                       <p className="font-headline font-bold tracking-widest uppercase text-xs text-neutral-500 mb-2">
-                        Shokunin Torino
+                        LOCATION TWO{" "}
                       </p>
                       <p className="text-xl font-light mb-4">
-                        Via Torino, 45, 20123 Milan
+                        Your address goes here
                       </p>
                       <div className="flex flex-wrap gap-x-8 gap-y-2 text-sm text-on-surface-variant opacity-80">
                         <span className="flex items-center gap-2">
@@ -179,10 +175,10 @@ export default function About() {
                     </span>
                     <div>
                       <p className="font-headline font-bold tracking-widest uppercase text-xs text-neutral-500 mb-2">
-                        Shokunin Corso Como
+                        LOCATION THREE{" "}
                       </p>
                       <p className="text-xl font-light mb-4">
-                        Corso Como, 10, 20154 Milan
+                        Your address goes here
                       </p>
                       <div className="flex flex-wrap gap-x-8 gap-y-2 text-sm text-on-surface-variant opacity-80">
                         <span className="flex items-center gap-2">
@@ -243,7 +239,7 @@ export default function About() {
                       WhatsApp: +39 333 456 7890
                     </p>
                     <p className="text-sm font-light">
-                      Email: craft@shokunin.it
+                      Email: support@example.com
                     </p>
                   </div>
                 </div>
@@ -298,8 +294,10 @@ export default function About() {
                 Network Hub
               </p>
               <p className="font-body text-lg">
-                Serving 3 districts across{" "}
-                <span className="text-primary-container font-bold">Milan</span>
+                Serving multiple areas across{" "}
+                <span className="text-primary-container font-bold">
+                  Your City
+                </span>
               </p>
             </div>
           </div>
