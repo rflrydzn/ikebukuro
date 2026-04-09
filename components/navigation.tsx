@@ -60,8 +60,8 @@ export default function Navigation({
       />
       <NavLink
         href="#"
-        icon="person"
-        label="Profile"
+        icon="info"
+        label="About"
         active={activeNav === "about"}
         onClick={() => setActiveNav("about")}
       />
