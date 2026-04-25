@@ -103,7 +103,8 @@ export default function About() {
                         LOCATION ONE
                       </p>
                       <p className="text-xl font-light mb-4">
-                        Your address goes here
+                        3 Bertha Phil clark, Clark Center, Pavillion 13A,
+                        Angeles, 2009 Pampanga, Philippines
                       </p>
                       <div className="flex flex-wrap gap-x-8 gap-y-2 text-sm text-on-surface-variant opacity-80">
                         <span className="flex items-center gap-2">
@@ -113,7 +114,7 @@ export default function About() {
                           >
                             call
                           </span>{" "}
-                          +39 02 3456 781
+                          +63 932 222 3804
                         </span>
                         <span className="flex items-center gap-2 text-green-500 font-bold uppercase">
                           <span
@@ -138,10 +139,11 @@ export default function About() {
                     </span>
                     <div>
                       <p className="font-headline font-bold tracking-widest uppercase text-xs text-neutral-500 mb-2">
-                        LOCATION TWO{" "}
+                        LOCATION TWO
                       </p>
                       <p className="text-xl font-light mb-4">
-                        Your address goes here
+                        Building D Solenad, 3 Nuvali Boulevard, Don Jose, City
+                        of Santa Rosa, 4026 Laguna, Philippines
                       </p>
                       <div className="flex flex-wrap gap-x-8 gap-y-2 text-sm text-on-surface-variant opacity-80">
                         <span className="flex items-center gap-2">
@@ -151,7 +153,7 @@ export default function About() {
                           >
                             call
                           </span>{" "}
-                          +39 02 3456 782
+                          +63 945 248 8615
                         </span>
                         <span className="flex items-center gap-2 text-green-500 font-bold uppercase">
                           <span
@@ -179,7 +181,7 @@ export default function About() {
                         LOCATION THREE{" "}
                       </p>
                       <p className="text-xl font-light mb-4">
-                        Your address goes here
+                        RO1 Blk 3 Lima Exchange, Malvar, Philippines, 4233
                       </p>
                       <div className="flex flex-wrap gap-x-8 gap-y-2 text-sm text-on-surface-variant opacity-80">
                         <span className="flex items-center gap-2">
@@ -189,7 +191,7 @@ export default function About() {
                           >
                             call
                           </span>{" "}
-                          +39 02 3456 783
+                          +63 954 304 2253
                         </span>
                         <span className="flex items-center gap-2 text-green-500 font-bold uppercase">
                           <span
