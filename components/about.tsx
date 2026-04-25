@@ -6,19 +6,20 @@ export default function About() {
           <img
             className="w-full h-full object-cover opacity-50 grayscale brightness-50"
             data-alt="dramatic close-up of a Japanese chef carving sashimi with a sharp steel knife in a dark moody kitchen with steam"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPx-KORgW_3ZEjuPkYLxltWcaQvPLqcZAUC_HLEI5KgJENrYMjd9Lh_yZkVjIcbwFpI5vA8QgHa4xdmEqWrICzTS0ztHCXoTF5s42rCQk_m0T2N8gaH4J32xxtJIx-B6BGZkLdXGMt2Dti1spgt_0jAycMRQeYfhsBzKHdPgmsuEbMG7C2B9dNT-YJJo9hU118p0ABZrps9VLZY4uHmGtcQ_eyg0M71RAsC6q5YNlLOumeEWe6hT-LV17l3ORIebw11NuOHpAwm50n"
+            src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/485160457_641159495185378_4815147070730415892_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2a1932&_nc_eui2=AeH8YoPix6k6K7cT7rb7tdumzqddujWd5tDOp126NZ3m0DeNV0BZRxWiEH6euijJS32a85BYtptBFGzmzmZH_O4S&_nc_ohc=iWG41wN4m7EQ7kNvwHzbj3m&_nc_oc=Ado0jSWpcydjsSi7dmDkkzqekIJOM5Y9k-C4KW03YFysGZ4vviCU6FWKYEQsucHxKP8&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=bzCvvTZwNlKHalugu3ITvg&_nc_ss=7b2a8&oh=00_Af2abFof1XZLwp62hDIMZerDWZ2ZOAogPfQXLKGFTXXwDg&oe=69F247B8"
           />
           <div className="absolute inset-0 bg-linear-to-t from-surface via-transparent to-transparent"></div>
         </div>
         <div className="relative z-10 px-6 md:px-12 max-w-3xl">
           <div className="inline-block bg-primary-container h-1 w-24 mb-6"></div>
           <h2 className="font-headline font-extrabold text-5xl md:text-7xl lg:text-8xl tracking-tight leading-none mb-6">
-            YOUR <br />
-            <span className="text-primary-container">HEADER</span>
+            THE ART OF <br />
+            <span className="text-primary-container">PRECISION</span>
           </h2>
           <p className="font-body text-xl md:text-2xl text-on-surface-variant font-light leading-relaxed max-w-xl">
-            Your description goes here. Replace this text with a brief overview
-            or any generic placeholder content that fits your layout.
+            Enjoy fresh, authentic Japanese dishes crafted with care—from
+            expertly rolled sushi to rich, flavorful ramen. Every bite reflects
+            tradition, quality, and attention to detail.
           </p>
         </div>
       </section>

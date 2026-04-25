@@ -12,10 +12,10 @@ export default function HomePage() {
         </div>
         <div className="relative z-10 text-center px-6 max-w-4xl">
           <h2 className="font-headline text-primary-container text-sm tracking-[0.4em] uppercase mb-6">
-            YOUR HEADER HERE
+            A taste of Japan with a dash of French cuisine
           </h2>
           <h1 className="font-headline text-5xl md:text-8xl font-extrabold tracking-tighter text-on-surface mb-8">
-            YOUR MAIN TITLE GOES HERE
+            A gourmet’s delight
           </h1>
           <div className="flex justify-center">
             <button className="bg-primary-container text-on-primary-container px-10 py-4 font-headline font-bold text-sm tracking-widest hover:bg-primary-fixed-dim transition-all duration-300 active:scale-95">
